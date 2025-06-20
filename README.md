@@ -17,7 +17,6 @@ An advanced, real-time, interactive calculator built using **HTML**, **CSS**, an
   - View full history
   - Clear history anytime
   - History saved using **localStorage**
-- 📱 **Mobile Vibration Feedback** (optional)
 
 ---
 
@@ -27,23 +26,3 @@ An advanced, real-time, interactive calculator built using **HTML**, **CSS**, an
 - **CSS3**
 - **Vanilla JavaScript (ES6)**
 
----
-
-## 📁 Folder Structure
-
-Smart-Calculator/
-├──
-index.html
-├──
-style.css
-├──
-script.js
-└──
-README.md
-
-**Future Improvements**
--Add voice input (Web Speech API)
--Add parentheses support
--Add keyboard input
--Add scientific toggle mode
--Use regex-based secure parsing instead of eval (for safety)
