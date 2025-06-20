@@ -32,10 +32,15 @@ An advanced, real-time, interactive calculator built using **HTML**, **CSS**, an
 ## 📁 Folder Structure
 
 Smart-Calculator/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
+├──
+index.html
+├──
+style.css
+├──
+script.js
+└──
+README.md
+
 **Future Improvements**
 -Add voice input (Web Speech API)
 -Add parentheses support
