@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced Calculator by Saumya Saini</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1> Smart Calculator</h1>
+    <input type="text" id="display" readonly />
+    <div id="resultPreview">= 0</div>
+
+    <div class="buttons">
+      <!-- Special -->
+      <button id="moveLeft">&lt;</button>
+      <button id="moveRight">&gt;</button>
+      <button id="backspace">⌫</button>
+      <button id="clear">C</button>
+      <!-- Numbers -->
+      <button class="btn" data-val="7">7</button>
+      <button class="btn" data-val="8">8</button>
+      <button class="btn" data-val="9">9</button>
+      <button class="btn" data-val="/">÷</button>
+
+      <button class="btn" data-val="4">4</button>
+      <button class="btn" data-val="5">5</button>
+      <button class="btn" data-val="6">6</button>
+      <button class="btn" data-val="*">×</button>
+
+      <button class="btn" data-val="1">1</button>
+      <button class="btn" data-val="2">2</button>
+      <button class="btn" data-val="3">3</button>
+      <button class="btn" data-val="-">−</button>
+
+      <button class="btn" data-val="0">0</button>
+      <button class="btn" data-val=".">.</button>
+      <button class="btn" data-val="+">+</button>
+      <button id="equals">=</button>
+
+      <!-- Scientific -->
+      <button class="btn1" data-val="sin(">sin</button>
+      <button class="btn1" data-val="cos(">cos</button>
+      <button class="btn1" data-val="√(">√</button>
+      <button class="btn1" data-val="^2">x²</button>
+      <button class="btn1" data-val="^3">x<sup>3</sup></button>
+      <button class="btn1" data-val=")">)</button>
+        <button class="btn1" data-val="(">(</button>
+    
+    </div>
+
+    <div class="controls">
+      <button id="themeToggle">Theme</button>
+      <button id="showHistory">History</button>
+      <button id="clearHistory">🗑️ Clear History</button>
+    </div>
+
+    <ul id="historyPanel" class="hidden">
+      <h3>History</h3>
+      <ul id="historyList"></ul>
+    </ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  transition: background 0.3s;
+}
+
+body.dark {
+  background: #111;
+  color: white;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+body.dark .container {
+  background: #222;
+}
+
+#themeToggle{
+    background-color: #7fadf1;
+}
+#clearHistory{
+    background-color: #fada7b;
+}
+#showHistory{
+    background-color: #f3a6cf;
+}
+
+.btn1{
+    background-color: #000000;
+    color: #e0e0e0;
+}
+
+
+#display {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+}
+
+#resultPreview {
+  text-align: right;
+  font-size: 1.2rem;
+  color: green;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 15px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #e0e0e0;
+  transition: transform 0.1s;
+}
+
+button:active {
+  transform: scale(0.96);
+}
+
+body.dark button {
+  background: #444;
+  color: white;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+#historyPanel {
+  background: #f9f9f9;
+  max-height: 150px;
+  overflow-y: auto;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+body.dark #historyPanel {
+  background: #333;
+}
+
+.hidden {
+  display: none;
+}
