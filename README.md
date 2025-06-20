@@ -14,9 +14,9 @@ An advanced, real-time, interactive calculator built using **HTML**, **CSS**, an
 - 🧼 **Clear Button** – Quickly clear the entire input
 - 🌗 **Dark/Light Theme Toggle**
 - 📜 **Calculation History Panel**
-  - View full history
-  - Clear history anytime
-  - History saved using **localStorage**
+- View full history
+- Clear history anytime
+- History saved using **localStorage**
 
 ---
 
